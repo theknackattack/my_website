@@ -20,4 +20,4 @@ jobs:
 
       - name: Sync files
         run: |
-          rsync -avz --delete --exclude '.git*' ./ jvyftgte@theknackattack.net:~/public_html
+          rsync -avz --delete --exclude '.git*' ./ jvyftgte@theknackattack.net:/home1/jvyftgte/public_html
